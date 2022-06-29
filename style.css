@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body {
+    /* font-family: 'Exo 2', sans-serif; */
+    background-color: #fcc;
+    font-family: 'Courgette', cursive;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 0;
+    box-sizing: border-box;
+    width: 90vw;
+    height: 100vh;
+    padding: 2vw;
+    overflow-y: scroll;
+}
+
+
+body > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+div > div {
+    padding-left: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+
+}
+
+div > div > div {
+    justify-self: flex-end;
+    width: 20%;
+    font-size: 1.2rem;
+}
+
+.mic-dejun-header {
+
+    padding-left: 0rem;
+    display: flex;
+    gap: 5rem;
+    justify-content:initial;
+}
+
+.mic-dejun-header > div {
+
+    justify-self: auto;
+    margin-top: 2%;
+    font-size: 1.2rem;
+}
